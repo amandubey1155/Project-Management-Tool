@@ -1,0 +1,13 @@
+{
+  "name": "project-management-tool",
+  "version": "1.0.0",
+  "description": "Collaborative Project Management Tool with Boards, Tasks, Comments, and Real-time WebSockets",
+  "private": true,
+  "scripts": {
+    "backend:dev": "node --watch backend/server.js",
+    "backend:start": "node backend/server.js",
+    "backend:seed": "node backend/seed.js",
+    "frontend:dev": "cd frontend && npm run dev",
+    "frontend:build": "cd frontend && npm run build"
+  }
+}
